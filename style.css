@@ -1,0 +1,463 @@
+
+body {
+  font-family: 'ubuntu', 'Josefin Sans', sans-serif;
+  /* background-color: aqua; */
+}
+
+hr{
+  width: 100%;
+}
+/* .............navbar.............  */
+.navbar {
+
+  text-align: center;
+
+}
+
+.logo {
+  height: 50px;
+  margin: 0px 20px;
+}
+
+.nav-item {
+  margin: 0 20px;
+  color: #222;
+
+}
+
+.nav-link {
+  font-style: unset;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.navbar .btn {
+  padding: .45rem 1.5rem .35rem;
+  color: #fff;
+  font-weight: bolder;
+  background-color: transparent;
+  border: solid 1px white;
+}
+
+.navbar .btn:hover {
+  background-color: #0650bf;
+  border: solid 1px #0650bf;
+}
+
+.gradient-custom {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(30deg, #eeeeee5d 20%, #0066ffe2 80%);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(30deg, #eeeeee5d 20%, #0066ffe2 80%);
+}
+
+
+#welcome {
+  text-align: center;
+  margin: 30px;
+}
+
+.pic {
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+.welcomTxt,
+.headTxt .para {
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 10px;
+}
+
+#welcome p {
+  font-style: italic;
+  font-size: 15px;
+  padding-left: 120px;
+
+}
+
+
+#Newsfeed {
+
+  width: 90%;
+  margin: 50px auto;
+}
+
+.headTxt {
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 80px auto 40px auto;
+  
+
+
+}
+
+#Newsfeed img {
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+}
+
+.news {
+  margin-top: 40px;
+}
+
+/* ...................project........................ */
+#project{
+  width: 90%;
+margin: 100px auto;
+}
+#project h1{
+  margin: 50px auto;
+}
+.card img {
+  margin-top: 8px;
+
+}
+
+.card {
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+
+  
+}
+
+/* --------------------------------TEAM----------------------------- */
+
+
+
+
+#team {
+  margin: 50px auto;
+  width: 90%;
+  background: linear-gradient(100deg, #5292f3 20%, #0366f9 80%);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+
+
+}
+#team .row{
+  justify-content: center;
+
+}
+
+.teamTitle {
+  padding-top: 50px;
+  font-size: 2.5rem;
+  color: #ffff;
+}
+
+
+.mt-100 {
+  margin-top: 100px
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 40px;
+
+
+}
+.profile img:hover {
+  transform: scale(1.7);
+}
+
+
+
+#team .card-body {
+  position: relative;
+  bottom: 20px;
+
+}
+
+
+#team ul {
+  list-style: none;
+  padding: 0;
+}
+
+#team  a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+
+.social li {
+  display:inline;
+  margin:50px 10px 5px 10px;
+
+
+}
+
+.social img {
+  height: 40px;
+  border-radius: 20%;
+
+}
+
+
+.social img:hover{
+  /* height: 50px; */
+  transform: scale(1.3);
+}
+
+
+
+
+/* ....................roadmap..................... */
+#roadmap{
+  max-width: 90%;
+  margin: 80px auto;
+  text-align: center;
+
+}
+
+.timeline{
+  width:60%;
+  margin:40px auto;
+  
+}
+
+
+.text {
+  display: var(--textDisplay, inline-flex);
+  font-size: var(--textFontSize, 1rem);
+}
+
+.page h1 {
+  text-align: center;
+}
+
+
+
+.time {
+  display: var(--timeDisplay, inline-flex);
+}
+
+/*
+  extensions
+  */
+
+.time__month {
+  margin-left: var(--timelineMounthMarginLeft, .25em);
+}
+
+/*
+  skin
+  */
+
+.time {
+  padding: var(--timePadding, .25rem 1.25rem .25rem);
+  background-color: var(--timeBackgroundColor, #f0f0f0);
+
+  font-size: var(--timeFontSize, .75rem);
+  font-weight: var(--timeFontWeight, 700);
+  text-transform: var(--timeTextTransform, uppercase);
+  color: var(--timeColor, currentColor);
+}
+
+/*
+  card component
+  */
+
+/*
+  core styles
+  */
+
+.card1 {
+  padding: var(--timelineCardPadding, 1.5rem 1.5rem 1.25rem);
+}
+
+.card__content {
+  margin-top: var(--cardContentMarginTop, .5rem);
+}
+
+/*
+  skin
+  */
+
+.card1 {
+  border-radius: var(--timelineCardBorderRadius, 2px);
+  border-left: var(--timelineCardBorderLeftWidth, 3px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
+  box-shadow: var(--timelineCardBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24));
+  background-color: var(--timelineCardBackgroundColor, #fff);
+}
+
+/*
+  extensions
+  */
+
+.card__title {
+  --rTitleMarginTop: var(--cardTitleMarginTop, 1rem);
+  font-size: var(--cardTitleFontSize, 1.25rem);
+}
+
+/*
+  =====
+  CORE STYLES
+  =====
+  */
+
+.timeline {
+  display: var(--timelineDisplay, grid);
+  grid-row-gap: var(--timelineGroupsGap, 2rem);
+}
+
+/*
+  1. If timeline__year isn't displaed the gap between it and timeline__cards isn't displayed too
+  */
+
+.timeline__year {
+  margin-bottom: 1.25rem;
+  /* 1 */
+}
+
+.timeline__cards {
+  display: var(--timeloneCardsDisplay, grid);
+  grid-row-gap: var(--timeloneCardsGap, 1.5rem);
+}
+
+
+/*
+  =====
+  SKIN
+  =====
+  */
+
+.timeline {
+  --uiTimelineMainColor: var(--timelineMainColor, #222);
+  --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+
+  border-left: var(--timelineLineWidth, 3px) solid var(--timelineLineBackgroundColor, var(--uiTimelineMainColor));
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.timeline__year {
+  --timePadding: var(--timelineYearPadding, .5rem 1.5rem);
+  --timeColor: var(--uiTimelineSecondaryColor);
+  --timeBackgroundColor: var(--uiTimelineMainColor);
+  --timeFontWeight: var(--timelineYearFontWeight, 400);
+}
+
+.timeline__card {
+  position: relative;
+  margin-left: var(--timelineCardLineGap, 1rem);
+}
+
+/*
+  1. Stoping cut box shadow
+  */
+
+.timeline__cards {
+  overflow: hidden;
+  padding-top: .25rem;
+  /* 1 */
+  padding-bottom: .25rem;
+  /* 1 */
+}
+
+.timeline__card::before {
+  content: "";
+  width: 100%;
+  height: var(--timelineCardLineWidth, 2px);
+  background-color: var(--timelineCardLineBackgroundColor, var(--uiTimelineMainColor));
+
+  position: absolute;
+  top: var(--timelineCardLineTop, 1rem);
+  left: -50%;
+  z-index: -1;
+}
+
+/*
+  =====
+  SETTINGS
+  =====
+  */
+/**/
+.timeline {
+  --timelineMainColor: #4557bb;
+}
+
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.page {
+ 
+  text-align: center;
+ padding: 30px;
+}
+
+
+.substack {
+  border: 1px solid #EEE;
+  background-color: #fff;
+  width: 100%;
+  max-width: 480px;
+  height: 280px;
+  margin: 1rem auto;
+  ;
+}
+
+
+.linktr {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+  text-align: center;
+}
+
+.linktr__goal {
+  background-color: rgb(209, 246, 255);
+  color: rgb(8, 49, 112);
+  box-shadow: rgb(8 49 112 / 24%) 0px 2px 8px 0px;
+  border-radius: 2rem;
+  padding: .75rem 1.5rem;
+}
+
+.r-link {
+  --uirLinkDisplay: var(--rLinkDisplay, inline-flex);
+  --uirLinkTextColor: var(--rLinkTextColor);
+  --uirLinkTextDecoration: var(--rLinkTextDecoration, none);
+
+  display: var(--uirLinkDisplay) !important;
+  color: var(--uirLinkTextColor) !important;
+  text-decoration: var(--uirLinkTextDecoration) !important;
+}
+.headTxt{
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: center;
+  
+  
+}
+.welcomTxt,
+.headTxt .para {
+  display: inline-block;
+  font-size: 2.5rem;
+  
+}
+
